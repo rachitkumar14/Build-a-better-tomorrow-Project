@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 3</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        body{
+            background-image: url("assests/bg.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-attachment: relative;
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        }
+        a{
+            color: white;
+            text-decoration: none;
+        }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+
+        border: none;
+        background-color: black;
+    }
+    nav ul{
+        display: flex;
+        align-items: center;
+        gap: 40px;
+    }
+    nav div ul li img{
+        height: 40px;
+        width: 80px;
+        padding-left: 40px;
+    }
+.single{
+    color: white;
+    font-size: 40px;
+    font-weight: 100;
+}
+nav:hover{
+    background-color: darkgreen;
+}
+nav div button{
+    margin-right: 40px;
+    font-size: 20px;
+    background-color: rgb(179, 9, 179);
+    color: whitesmoke;
+    padding: 5px 20px 5px 20px;
+    border-radius: 10px;
+    height: 40%;
+    border: none;
+    cursor: pointer;
+}
+nav div button:hover{
+    background-color: whitesmoke;
+    color: darkblue;
+}
+nav a:hover{
+color: lightgreen;
+}
+/* Main section */
+section div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section button:hover{
+    background-color: whitesmoke;
+    color: darkblue;
+}
+section div h1{
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+}
+section div h4{
+color: white;
+font-size: 24px;
+}
+section div button{
+    background-color:  rgb(179, 9, 179);
+    margin-top: 40px;
+    font-size: 30px;
+    padding: 5px 20px 5px 20px;
+    font-weight: 600;
+    cursor: pointer;
+    color: whitesmoke;
+    border: none;
+    border-radius: 6%;
+}
+    </style>
+</head>
+<body>
+    <!-- Header -->
+<nav>
+    <div>
+        <ul >
+        <li><img src="assests/white-logo.png" alt=""></li>
+        <div class="single"><li >|</li></div>
+        <li><a href="#">Apps</a></li>
+        <li><a href="#">DAO</a></li>
+        <li><a href="#">Technology</a></li>
+        <li><a href="#">Token</a></li>
+        <li><a href="#">Contributors</a></li>
+        </ul>
+       </div>
+    <div><button>Buy 1 Token</button></div>
+</nav>
+    <!-- Main Section -->
+    <section>
+        <div>
+            <h1>
+                Lets Build a Better <br> Tomorrow, together.
+            </h1>
+            <h4>Buy 1 Token. Join the DAO. Change the World</h4>
+            <button>Request Early Access</button>
+        </div>
+    </section>
+    <footer>
+        <div></div>
+    </footer>
+</body>
+</html>
